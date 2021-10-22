@@ -1,0 +1,159 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sergio Martín
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: sms@outofboxinsideworld.com
+    phone: 
+    website: www.outofboxinsideworld.com #do not add http://
+    linkedin: sergiomartinsanchez
+    xing: 
+    github: obiw
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: resume-sergio-martin.pdf
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+career-profile:
+    title: Career Profile
+    summary: |
+      Multidisciplinar developer with +9 years of experience as a Freelance Full Stack Developer building solutions for big size companies like Securitas Direct and Telefonica. 
+      Skilled in designing and testing multiple applications including database design and deployment. Also lead a development team while transforming company procedures to adopt CI/CD and Automated Testing.  Before freelance I did some stuff as an employee. You can check my linkedin profile for more details if you are interested in that part.
+education:
+    - degree: BSc in Computer Science
+      university: University Politécnica of Madrid
+      time: 2000 - 2004
+    - degree: Certificate of Higher Education in Development of software
+      university: Joyfe School of Madrid
+      time: 1998 - 2000
+experiences:
+    - role: Backend Developer
+      time: 2019 - Present
+      company: Securitas Direct, Madrid
+      details: |
+          - Senior Backend Developer in IOT-M2M team working on the reception layer for security devices.
+          - Build microservices using Springboot+java and standalone applications (Java and QT/C++) for receiving signals and multimedia from devices using differente protocols (UDP+STUN, TCP/IP, XMPP, SMS, HTTPS REST)
+          - Deployment with k8s using helm and Jenkins pipelines.
+          - Working in a remote team using Scrum methodology (Jira, Confluence and Bitbucket)
+          - Collaborate with testers in design and implement Automation Test strategy.
+          - Performance testing using Jmeter and custom scripts (bash, ruby, python...)
+    - role: Lead Developer
+      time: 2016 - 2020
+      company: Aviva Voice System and Services S.L., Madrid
+      details: |
+          - Lead Developer in charge of transforming company development procedures.
+          - Define and implement procedures for CI/CD with Jenkins.
+          - Move from a "manual-testing" enviroment to a "automated-testing" environment focusing on regresion test to improve quality of code.
+          - Collaborate with support and operations team to implement end-to-end procedures for validating and deployment in production enviroment.
+          - Improve Development lifecycle defining new procedures and tools.
+          - Working with the business units to define and improve the procedure for taking requirements and speed up delivery times and quality.  
+    - role: Full Stack Developer
+      time: 2012 - 2019
+      company: Securitas Direct, Madrid
+      details: |
+          - Working as a Freelance with B2B contract for different projects related to develop components for reception layer.
+          - Building an SMPP connector for integrate SMS channel with a wide range of network operators. Allow adding new operators using and standard protocol just with configuration changes instead of implement operator's SMS propietary protocol.
+          - Maintain a QT/C++ component and improve performance. Fixed a core bug related with multithreading and move from database integration to a Oracle BUS JMS integration. Allow 150% improvement in performance.
+          - Migrate old legacy code in QT/C++ to java.
+          - Implement an XMPP connector for integrate XMPP channel. Integrate with Openfire and Oracle OCIM. Implement jgroups to allow clustering in a multisite deployment.
+          - Develop components to receive high volumen of data from security panels and cameras via UDP/TCP protocols and SQS queues.
+    - role: Full Stack Developer
+      time: 2012 - 2016
+      company: Aviva Voice System and Services S.L., Madrid
+      details: |
+          - Developing and deployment components for SMS and EMAIL integration.
+          - Building application for provide value to SMS and Email allowing customers to send short links that redirect to a website portal.
+          - Implement component for generate different websites customized for customer.
+          - PDF generation and certification.
+          - Integration with multiple AWS services: SQS, S3, Data Sync, SES, Polly and SNS.
+          - High performance components for send SMS and email allowing routing traffic for multiple providers. 
+    - role: Full Stack Developer
+      time: 2012 - Present
+      company: Telefónica, Madrid
+      details: |
+          - Mantain and evolve a webapp for Marketing SMS communications. Built in Java, Resin and Oracle.
+          - Building and deploying an SMPP connector that loads SMS from Oracle Database and send to Telefónica SMS platform.
+          - Implement APIs for B2B integration.
+          - Support and maintain the application and the servers running Linux.
+    -           
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: Web-PKI
+        link: "https://github.com/obiw/web-pki.git"
+        tagline: "As BSc final project I built a software that allows you to deploy your own PKI service. Offers a web interface for enroll, renew, download and revoke certificates for personal use or for TLS"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java
+        level: 90%
+
+      - name: QT/C++
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby
+        level: 60%
+
+      - name: Spring boot
+        level: 70%
+
+      - name: Microservices
+        level: 80%
+
+      - name: Database Design
+        level: 65%  
+
+      - name: CI/CD
+        level: 70%  
+
+      - name: Team lead
+        level: 70%  
+
+      - name: Scrum
+        level: 70%
+
+      - name: Git/SVN
+        level: 80%
+
+      - name: Linux
+        level: 70%
+
+      - name: PKIs and digital signature
+        level: 80%
+
+      - name: Network protocols and tools
+        level: 80%  
+
+      - name: AWS Integration
+        level: 60%  
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
